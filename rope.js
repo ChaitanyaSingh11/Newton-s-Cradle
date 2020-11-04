@@ -14,7 +14,7 @@ class rope {
     display() {
         var pointA = this.rope.bodyA.position;
         var pointB = this.pointB;
-        stroke(random(100,200),random(0,100),random(100,200));
+        stroke(random(100,200),random(150,255),random(100,200));
         strokeWeight(4);
         line(pointA.x, pointA.y, pointB.x, pointB.y);
     }
