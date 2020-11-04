@@ -7,7 +7,7 @@ class Pendulum {
         this.r = r;
         this.image = loadImage("Assets/ball.png");
         World.add(world, this.body);
-        console.log(this.body);
+//         console.log(this.body);
     }
     display() {
         var pos = this.body.position;
