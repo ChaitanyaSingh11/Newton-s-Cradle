@@ -20,7 +20,7 @@ function setup() {
     engine = Engine.create();
     world = engine.world;
 
-    ground = new fixed(600, 590, 1200, 50, groundImg);
+    ground = new fixed(420, 590, 840, 50, groundImg);
     roof = new fixed(400, 50, 600, 100, roofImg);
     bob1 = new Pendulum(200, 406, 50);
     rope1 = new rope(bob1.body, roof.body, {
@@ -66,6 +66,9 @@ function draw() {
     bob4.display();
     rope5.display();
     bob5.display();
+    fill(random(50,250),0,random(50,250))
+    textSize(48);
+    text("NEWTON'S CRADLE",200,550);
 }
 
 function keyPressed() {
