@@ -1,2 +1,2 @@
 # Newton-s-Cradle
--*The best virtual pendulum ever made !!
+> The best virtual pendulum ever made !!
